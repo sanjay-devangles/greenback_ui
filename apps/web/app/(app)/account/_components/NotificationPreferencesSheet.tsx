@@ -109,7 +109,7 @@ export function NotificationPreferencesSheet({
         className="mt-3 flex w-full cursor-pointer items-center gap-2.5 rounded-xl border border-slate-700 bg-[#1a2639] p-3 text-left text-xs font-extrabold text-slate-200"
       >
         <Checkbox checked={dontShowAgain} />
-        Don't show this message again
+        Don&apos;t show this message again
       </button>
 
       <div className="flex gap-2.5 pt-4">
