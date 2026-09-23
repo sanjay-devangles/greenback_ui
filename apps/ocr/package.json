@@ -16,7 +16,6 @@
     "next": "15.5.25",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "styled-jsx": "5.1.6",
     "zod": "^3.23.8"
   },
   "devDependencies": {

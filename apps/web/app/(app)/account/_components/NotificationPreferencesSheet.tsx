@@ -109,7 +109,7 @@ export function NotificationPreferencesSheet({
         className="mt-3 flex w-full cursor-pointer items-center gap-2.5 rounded-xl border border-slate-700 bg-[#1a2639] p-3 text-left text-xs font-extrabold text-slate-200"
       >
         <Checkbox checked={dontShowAgain} />
-        Don&apos;t show this message again
+        Don't show this message again
       </button>
 
       <div className="flex gap-2.5 pt-4">
@@ -232,7 +232,7 @@ function Checkbox({ checked }: { checked: boolean }) {
   return (
     <span
       className={`mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-sm border ${
-        checked ? "border-[#00B4D8] bg-[#00B4D8] text-navy" : "border-slate-300 bg-white text-transparent"
+        checked ? "border-[#2E7D32] bg-[#2E7D32] text-white" : "border-slate-300 bg-white text-transparent"
       }`}
     >
       <Icon name="check" className="h-3 w-3" />
